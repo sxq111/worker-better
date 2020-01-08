@@ -1,0 +1,514 @@
+/Users/sxq111/proj/wsc-pc-v4/client/definitions/zent.d.ts
+  2,10: import { Form } from '@zent/compat'
+  11,28:   type ZENTFORM<EXTENDS> = Form.IWrappedComponentProps & EXTENDS;
+  12,35:   type ZENTFORM_PROPS_KEY = keyof Form.IWrappedComponentProps;
+  14,45:   type ZENT_FIELD_COMP<EXTENDS = {}> = Omit<Form.IFieldProps, 'component' | 'ref' | 'asyncValidation' | 'displayError' | 'validations' | keyof EXTENDS> & Form.IContolGroupProps & {
+  14,155:   type ZENT_FIELD_COMP<EXTENDS = {}> = Omit<Form.IFieldProps, 'component' | 'ref' | 'asyncValidation' | 'displayError' | 'validations' | keyof EXTENDS> & Form.IContolGroupProps & {
+  22,40:   type ZENT_FIELD<EXTENDS = {}> = Omit<Form.IFieldProps, 'component' | 'ref' | keyof EXTENDS> & Form.IContolGroupProps & Omit<EXTENDS, 'onChange'> & Partial<Pick<EXTENDS, 'onChange'>>;
+  22,97:   type ZENT_FIELD<EXTENDS = {}> = Omit<Form.IFieldProps, 'component' | 'ref' | keyof EXTENDS> & Form.IContolGroupProps & Omit<EXTENDS, 'onChange'> & Partial<Pick<EXTENDS, 'onChange'>>;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/appeal/components/fields/business-model-state-field/index.js
+  3,10: import { Form, Input, Dialog } from 'zent';
+  9,50: const { Field, getControlGroup, unknownProps } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/appeal/components/fields/upload-file-field/index.js
+  2,10: import { Form, Input, Icon, Notify, previewImage } from 'zent';
+  8,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/appeal/components/fields/upload-image-field/index.js
+  2,10: import { Form, Upload, Icon, Notify, previewImage } from 'zent';
+  7,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/appeal/components/fields/upload-video-field/index.js
+  2,10: import { Form, Notify, Icon } from 'zent';
+  7,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/appeal/pages/edit/index.js
+  5,10: import { Form, Button, Notify } from 'zent';
+  14,24: const { createForm } = Form;
+  148,10:         <Form horizontal onSubmit={handleSubmit(this.submit)}>
+  195,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/dashboard/components/main/new-business-overview/components/open-edit-overview-dialog/data-filter/index.js
+  2,10: import { Form, Input } from 'zent';
+  6,24: const { createForm } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/input-field/index.js
+  2,10: import { Form, Input } from 'zent';
+  6,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/link-field/components/add-link/index.js
+  2,10: import { Form, Dialog, Button, Notify } from 'zent';
+  8,40: const { FormInputField, createForm } = Form;
+  60,10:         <Form horizontal onSubmit={handleSubmit(this.handleAdd)}>
+  83,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/link-field/index.js
+  2,10: import { Form, Grid, Icon, Pop, MiniPagination, Sweetalert, Dialog } from 'zent';
+  9,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/preview-file-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  7,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/preview-image-field/index.js
+  2,10: import { Form, previewImage } from 'zent';
+  7,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/preview-link-field/index.js
+  2,10: import { Form, Grid, MiniPagination } from 'zent';
+  6,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/preview-text-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/radio-field/index.js
+  2,10: import { Form, Radio, Dialog } from 'zent';
+  12,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/textarea-field/index.js
+  2,10: import { Form, Input } from 'zent';
+  6,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/upload-file-field/index.js
+  2,10: import { Form, Pop, Notify } from 'zent';
+  9,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/components/field/components/upload-image-field/index.js
+  2,10: import { Form, Upload, Icon, previewImage } from 'zent';
+  8,36: const { Field, getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/detail/appeal.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  15,24: const { createForm } = Form;
+  108,12:           <Form horizontal>
+  140,13:           </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/detail/complain.js
+  2,10: import { Form, Button, Sweetalert, Notify } from 'zent';
+  21,24: const { createForm } = Form;
+  148,12:           <Form horizontal>
+  192,13:           </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/edit/appeal.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  14,24: const { createForm } = Form;
+  116,12:           <Form horizontal onSubmit={handleSubmit(this.goNext)}>
+  143,13:           </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/edit/complain.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  20,24: const { createForm } = Form;
+  165,12:           <Form horizontal onSubmit={handleSubmit(this.goNext)}>
+  248,13:           </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/material/index.js
+  2,10: import { Form } from '@zent/compat';
+  10,24: const { createForm } = Form;
+  35,10:         <Form horizontal>
+  39,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/preview/appeal.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  14,24: const { createForm } = Form;
+  70,10:         <Form horizontal>
+  88,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/preview/complain.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  19,24: const { createForm } = Form;
+  114,10:         <Form horizontal onSubmit={handleSubmit(this.handleSubmit)}>
+  147,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/ipr/pages/record/appeal.js
+  2,16: import { Grid, Form, Button, Notify, Pop } from 'zent';
+  16,67: rm, FormSelectField, FormDateRangePickerField } = Form;
+  35,12:           <Form horizontal onSubmit={handleSubmit(onGetData)}>
+  75,13:           </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/appeal/components/appeal-filter/deduct.js
+  2,10: import { Form, Button, Select, Pop } from 'zent';
+  8,67: rm, FormSelectField, FormDateRangePickerField } = Form;
+  35,10:         <Form horizontal onSubmit={handleSubmit(onGetData)}>
+  91,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/appeal/components/appeal-filter/punish.js
+  2,10: import { Form, Button } from 'zent';
+  8,67: rm, FormSelectField, FormDateRangePickerField } = Form;
+  23,10:         <Form horizontal onSubmit={handleSubmit(onGetData)}>
+  51,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/add/index.js
+  3,8: import Form from '../component/form';
+  6,11:   return <Form />;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/delete-button/senior-manager-container.jsx
+  5,8: import Form, {
+  39,8:       <Form>
+  58,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/form-role/index.js
+  2,24: import { BlockLoading, Form, Button, Select, Pop, Icon, Notify } from 'zent';
+  32,47: const { Field, createForm, FormInputField } = Form;
+  285,10:         <Form
+  359,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/form/edit-teacher-form.jsx
+  2,10: import { Form as ZentForm } from 'zent';
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/form/edit-teacher.jsx
+  2,10: import { Form as ZentForm, Button, Notify } from 'zent';
+  6,9: const { Form, Field, FormInputField, createForm } = ZentForm;
+  31,10:         <Form horizontal>
+  84,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/form/index.js
+  4,8: import Form, {
+  401,10:         <Form
+  539,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/form/uploda-field.jsx
+  2,10: import { Form as ZentForm } from 'zent';
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/component/textarea-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/edit/index.js
+  3,8: import Form from '../component/form';
+  9,11:   return <Form isEdit id={id} />;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/chain-staff/owner/index.js
+  3,8: import Form, {
+  117,8:       <Form className="chain-staff-page-owner-style ">
+  221,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/app.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  13,24: const { createForm } = Form;
+  108,8:       <Form horizontal className="contact-us" onSubmit={handleSubmit(this.submit)}>
+  147,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/address/component.js
+  2,10: import { Form, Input, Button } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/address/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/map/component.js
+  2,10: import { Form, Notify } from 'zent';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/map/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/phone/component.js
+  2,10: import { Form, Input } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/phone/index.js
+  2,10: import { Form } from '@zent/compat';
+  8,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/region-select/component.js
+  2,10: import { Form } from '@zent/compat';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/contact/field/region-select/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/diy/components/add-device-dialog-form/index.jsx
+  2,10: import { Form, Button, Icon, Pop } from 'zent';
+  5,57: { FormInputField, FormSelectField, createForm } = Form;
+  50,8:       <Form className="add-device-form" horizontal onSubmit={handleSubmit(this.props.onSubmit)}>
+  105,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/diy/components/modify-device-dialog-form/index.jsx
+  2,10: import { Form, Notify, Button, Pop, Icon } from 'zent';
+  6,57: { FormInputField, FormSelectField, createForm } = Form;
+  41,8:       <Form className="modify-device-dialog-form" horizontal onSubmit={handleSubmit(this.submit)}>
+  87,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/diy/components/operate-device-dialog/index.js
+  2,10: import { Form, Dialog, Button, Notify } from 'zent';
+  4,57: { FormInputField, FormSelectField, createForm } = Form;
+  84,10:         <Form horizontal>
+  105,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/operate/components/Filter.js
+  2,10: import { Form, Button, Notify } from 'zent';
+  6,48: const { FormSelectField, createForm, Field } = Form;
+  46,10:         <Form inline onSubmit={handleSubmit(this.submit)}>
+  68,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/printer/components/device/device-content.js
+  2,10: import { Form, Button, Notify, Sweetalert } from 'zent';
+  12,64: eForm, Field, getControlGroup, FormInputField } = Form;
+  236,8:       <Form className="form" horizontal>
+  355,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/printer/components/printer/printer-form/BillField.js
+  2,10: import { Form, Select } from 'zent';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/printer/components/printer/printer-form/index.js
+  2,10: import { Form, Radio, Pop, Checkbox } from 'zent';
+  6,92: , FormRadioGroupField, FormCheckboxGroupField } = Form;
+  33,8:       <Form horizontal className="printer-form">
+  152,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/printer/components/receipt-edit/edit/index.js
+  2,10: import { Form, Radio, Button } from 'zent';
+  7,68: m, Field, FormInputField, FormRadioGroupField } = Form;
+  19,10:         <Form horizontal onSubmit={handleSubmit(this.submit)}>
+  66,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/printer/components/receipt-edit/edit/PrinterGroup.js
+  2,10: import { Form, Radio, Button, Table, Pop, Icon, Notify } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/shop-info/pages/edit/edit-form.tsx
+  2,10: import { Form, Button, Notify, BlockLoading, Pop, Icon } from 'zent';
+  12,64: nputField, createForm, Field, getControlGroup } = Form;
+  77,8:       <Form className="edit-form" horizontal onSubmit={handleSubmit(this.submit)}>
+  168,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/shop-info/pages/edit/fields/shop-name.tsx
+  2,10: import { Form, Input } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/shop-info/pages/edit/fields/upload-logo.tsx
+  2,10: import { Form } from '@zent/compat';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/staff/detail/FormContainer.jsx
+  12,24: import { BlockLoading, Form as ZentForm, Button, Select, Notify, Dialog } from 'zent';
+  50,9: const { Form, Field, FormInputField, createForm, SelectField } = ZentForm;
+  176,10:         <Form horizontal onSubmit={handleSubmit(this.submit)}>
+  447,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/staff/detail/UploadField.jsx
+  2,10: import { Form as ZentForm } from 'zent';
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/staff/owner/index.jsx
+  3,10: import { Form as ZentForm, Button, Alert, Notify } from 'zent';
+  14,9: const { Form, Field, FormInputField, FormSelectField, createForm } = ZentForm;
+  103,10:         <Form horizontal className="owner-form" onSubmit={handleSubmit(this.submit)}>
+  203,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/staff/role/detail/index.jsx
+  11,10: import { Form, Notify, Button, BlockLoading } from 'zent';
+  19,47: const { createForm, Field, FormInputField } = Form;
+  154,10:         <Form
+  227,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/FieldForm.tsx
+  2,10: import { Form, Button, IFormCreateFormWrapperProps } from 'zent';
+  14,47: const { createForm, FormInputField, Field } = Form as any;
+  49,8:       <Form horizontal onSubmit={handleSubmit(this.submit)}>
+  168,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/business-hour-field/BusinessHour.tsx
+  2,10: import { Form } from '@zent/compat';
+  97,16: export default Form.getControlGroup(BusinessHourComponent);
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/business-hour-field/index.tsx
+  2,10: import { Form } from '@zent/compat';
+  7,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/img-select-field/ImgSelect.tsx
+  3,10: import { Form, IFieldProps } from 'zent';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/map/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/phone-field/index.tsx
+  2,10: import { Form } from '@zent/compat';
+  7,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/phone-field/Phone.tsx
+  2,10: import { Form, Input } from 'zent';
+  60,16: export default Form.getControlGroup(PhoneComponent);
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/position/index.js
+  2,10: import { Form } from '@zent/compat';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/store-manage/containers/edit/fields/region-select/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/card-field/index.js
+  2,10: import { Form, Radio, Notify, BlockLoading, Cascader, Select } from 'zent';
+  15,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/fans-buy-field/index.js
+  2,10: import { Form, Radio, Pop } from 'zent';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/goods-config-field/index.js
+  2,10: import { Form, Checkbox, Pop } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/order-config-field/index.js
+  2,10: import { Form, Checkbox, Pop } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/wsc-im-field/index.js
+  2,10: import { Form, Radio, Checkbox, Pop } from 'zent';
+  9,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/components/wsc-im-mode-field/index.js
+  2,10: import { Form, Radio } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/base/index.js
+  2,10: import { Form, Radio, Pop } from 'zent';
+  25,40: const { Field, FormRadioGroupField } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/business/components/autostart-business-field/index.js
+  2,10: import { Form, Radio, DatePicker } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/business/components/business-time-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/business/index.js
+  2,10: import { Form, Radio } from 'zent';
+  16,53: nst { FormRadioGroupField, Field, FormSection } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods-form/index.js
+  3,10: import { Form } from '@zent/compat';
+  8,24: const { createForm } = Form;
+  30,10:         <Form horizontal>
+  39,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods/BuyBtnConfigField.js
+  2,10: import { Form, Radio, Input, Dialog, Button, Pop } from 'zent';
+  8,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods/field/GoodsDetailSalesField.js
+  3,10: import { Form, Radio, Checkbox, Input, Pop } from 'zent';
+  7,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods/field/GoodsRecommendField.js
+  2,10: import { Form, Radio, Checkbox } from 'zent';
+  18,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods/field/RecommendForYouField.js
+  2,10: import { Form, Radio, Pop, Checkbox, Input, Button, Dialog } from 'zent';
+  9,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/goods/index.js
+  2,10: import { Form, Radio, Pop, Icon, Checkbox } from 'zent';
+  22,64: adioGroupField, Field, FormCheckboxGroupField } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/page/components/background-field/index.js
+  2,10: import { Form, Button, ColorPicker } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/page/components/logo-field/index.js
+  4,33: import { Dialog, Button, Radio, Form } from 'zent';
+  7,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/page/components/page-title-suffix-field/index.js
+  2,27: import { Checkbox, Input, Form } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/page/components/team-title-field/index.js
+  2,20: import { Checkbox, Form } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/page/index.js
+  2,10: import { Form, Radio } from 'zent';
+  11,40: const { FormRadioGroupField, Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment-form/index.js
+  3,10: import { Form } from '@zent/compat';
+  7,24: const { createForm } = Form;
+  40,10:         <Form horizontal>
+  42,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/check-count/index.js
+  2,30: import { Radio, NumberInput, Form } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/identify-field/index.js
+  2,18: import { Notify, Form, Radio, Dialog } from 'zent';
+  9,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/input-with-prefix-and-suffix-field/index.js
+  2,17: import { Input, Form } from 'zent';
+  4,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/stock-occupation-time/index.js
+  2,23: import { NumberInput, Form } from 'zent';
+  5,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/voice-reminder-field/index.js
+  2,10: import { Form, Radio } from 'zent';
+  7,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/components/wait-confirm-field/index.js
+  2,10: import { Form, Radio, Checkbox } from 'zent';
+  6,29: const { getControlGroup } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/payment/index.js
+  2,10: import { Form, Radio, Pop, Checkbox } from 'zent';
+  38,80: Field, FormCheckboxGroupField, FormInputField } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/store-form/index.js
+  3,10: import { Form } from '@zent/compat';
+  10,24: const { createForm } = Form;
+  51,10:         <Form horizontal>
+  55,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/wepay-form/components/weixin-payment-discount/index.jsx
+  2,10: import { Form } from '@zent/compat';
+  7,19: const { Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/wepay-form/components/weixin-payment-discount/WeixinPaymentDiscount.jsx
+  2,10: import { Form, Radio, Input } from 'zent';
+  46,16: export default Form.getControlGroup(WeixinPaymentDiscountComponent);
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/team/containers/wepay-form/index.js
+  3,10: import { Form } from '@zent/compat';
+  7,24: const { createForm } = Form;
+  17,10:         <Form horizontal>
+  26,11:         </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/trade/delivery/components/temp-form/index.js
+  3,10: import { Form, Radio, Button, Notify, BlockLoading } from 'zent';
+  10,68: m, FormInputField, FormRadioGroupField, Field } = Form;
+  93,8:       <Form horizontal onSubmit={handleSubmit(this.handleSubmit)}>
+  126,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/ump/pages/activity-remind/field/activity-select-field/index.js
+  2,10: import { Form, Icon } from 'zent';
+  8,36: const { getControlGroup, Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/ump/pages/activity-remind/field/index.js
+  2,10: import { Form } from '@zent/compat';
+  13,24: const { createForm } = Form;
+  84,8:       <Form horizontal onSubmit={handleSubmit(this.onSubmit)}>
+  88,9:       </Form>
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/ump/pages/activity-remind/field/remind-mode-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  6,36: const { getControlGroup, Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/ump/pages/activity-remind/field/remind-time-field/index.js
+  2,10: import { Form, Radio, NumberInput, Select } from 'zent';
+  7,36: const { getControlGroup, Field } = Form;
+
+/Users/sxq111/proj/wsc-pc-v4/client/pages/setting/ump/pages/activity-remind/field/staff-select-field/index.js
+  2,10: import { Form } from '@zent/compat';
+  11,36: const { getControlGroup, Field } = Form;
